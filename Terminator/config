@@ -1,0 +1,20 @@
+         # This is a comment
+         [global_config]
+           focus = system
+
+         [keybindings]
+           full_screen = <Ctrl><Shift>F11
+
+         [profiles]
+           [[default]]
+             font = Fixed 10
+             background_color = "#000000" # A comment
+             foreground_color = "#11FF11" # Note that hex colour values must be quoted
+	     background_type ="transparent"
+	     color_scheme = 'green_on_black'
+	     copy_on_selection = True
+             scrollback_lines = '500' #More comment. Single quotes are valid too
+	     borderless = True
+             cursor_blink = False
+             custom_command = "echo \"foo#bar\"" #Final comment - this will work as expected.
+
