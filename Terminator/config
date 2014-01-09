@@ -7,14 +7,17 @@
 
          [profiles]
            [[default]]
-             font = Fixed 10
+             font = Fixed 14             
+palette="#DD8533:#004400:#555500:#FFFF00:#00AAAA:#FF00FF:#FFFFFF:#FFFFFF:#220022:#222200:#CCDD66:#999900:#A9AA00:#000066:#992399:#999900"
              background_color = "#000000" # A comment
-             foreground_color = "#11FF11" # Note that hex colour values must be quoted
-	     background_type ="transparent"
+             foreground_color = "#33AA33" # Note that hex colour values must be quoted
+	     background_type = "transparent"
+             background_darkness='0.8'
 	     color_scheme = 'green_on_black'
 	     copy_on_selection = True
              scrollback_lines = '500' #More comment. Single quotes are valid too
 	     borderless = True
-             cursor_blink = False
+             cursor_blink = True
+             cursor_color = "#AA0000"
              custom_command = "echo \"foo#bar\"" #Final comment - this will work as expected.
 

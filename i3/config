@@ -17,6 +17,8 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
 font pango:DejaVu Sans Mono 10
+#set wallpaper
+exec --no-startup-id sh ~/.wallpaper.sh
 
 #volume manager
 exec /usr/bin/pa-applet
